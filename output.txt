@@ -1,0 +1,635 @@
+Date: 2019/8/10; Time: 12:33:32
+Top words used: 
+lol  :  0.9059140885844638
+wrong  :  0.20824469607549392
+res  :  0.09608304896398519
+enjoying  :  0.08399940039295062
+serious  :  0.04509941362392601
+never  :  0.040415702661232074
+pretty  :  0.035435255644987194
+one  :  0.02989550656818113
+future  :  0.028060486900198522
+weird  :  0.027097606221253505
+Sentiment: {'neg': 0.09, 'neu': 0.732, 'pos': 0.178, 'compound': 0.9419}
+Classified emotion: amusement
+
+Date: 2019/8/13; Time: 1:31:32
+Top words used: 
+boring  :  0.6677585628701395
+sounds  :  0.47116106395801527
+i  :  0.37391256491139474
+eyes  :  0.3035157855533948
+gray  :  0.22348983708153386
+considered  :  0.20322002410008877
+feeling  :  0.09448401860036247
+Sentiment: {'neg': 0.261, 'neu': 0.568, 'pos': 0.17, 'compound': -0.2023}
+Classified emotion: annoyance
+
+Date: 2019/8/17; Time: 5:35:32
+Top words used: 
+on  :  0.8064978547272693
+ky  :  0.500123847810911
+Sentiment: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+Classified emotion: admiration
+
+Date: 2019/8/18; Time: 12:51:32
+Top words used: 
+guards  :  0.1978789041230397
+Sentiment: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+Classified emotion: neutral
+
+Date: 2019/9/1; Time: 12:28:32
+Top words used: 
+night  :  0.274806524301336
+bc  :  0.23092035904052036
+one  :  0.19898800471290137
+Sentiment: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+Classified emotion: neutral
+
+Date: 2020/1/15; Time: 3:42:32
+Top words used: 
+realize  :  0.7366231354103401
+real  :  0.3288195330317608
+didnt  :  0.28613171363174156
+ized  :  0.21123980274831386
+unnecessary  :  0.18773255692283003
+ive  :  0.12779886846471591
+so  :  0.10467543241679587
+even  :  0.09199216611142415
+first  :  0.08250824839414728
+week  :  0.0703352161997343
+Sentiment: {'neg': 0.04, 'neu': 0.823, 'pos': 0.137, 'compound': 0.8986}
+Classified emotion: realization
+
+Date: 2020/2/2; Time: 6:49:32
+Top words used: 
+believe  :  0.5414668867008159
+day  :  0.32286078842530863
+happiness  :  0.2386076694355117
+one  :  0.22845564870013682
+hope  :  0.2043664722473943
+res  :  0.18190995701969326
+everyone  :  0.12935698311034877
+life  :  0.0957755770263668
+who  :  0.0872772188408993
+things  :  0.08321910493269005
+Sentiment: {'neg': 0.061, 'neu': 0.742, 'pos': 0.197, 'compound': 0.9757}
+Classified emotion: optimism
+
+Date: 2020/2/9; Time: 12:38:32
+Top words used: 
+see  :  0.41269353655215063
+cant  :  0.3741495237593298
+far  :  0.20095468172579384
+one  :  0.06083654209388147
+seeing  :  0.051176994822115456
+Sentiment: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+Classified emotion: neutral
+
+Date: 2020/3/2; Time: 4:33:32
+Top words used: 
+thanks  :  0.6841950075859574
+great  :  0.28465706290115245
+dont  :  0.2609806275555519
+up  :  0.09135869802123024
+baby  :  0.08472995978028817
+thats  :  0.08308158286489972
+ive  :  0.07882670352659497
+ures  :  0.06494296358534328
+fever  :  0.06312863690730008
+lately  :  0.059298730105272694
+Sentiment: {'neg': 0.119, 'neu': 0.704, 'pos': 0.178, 'compound': 0.6669}
+Classified emotion: gratitude
+
+Date: 2020/3/15; Time: 12:44:32
+Top words used: 
+back  :  0.5020700179092454
+8  :  0.318866675460072
+months  :  0.3006937510900844
+difference  :  0.10654119501786201
+insecure  :  0.03950857337184262
+Sentiment: {'neg': 0.23, 'neu': 0.574, 'pos': 0.197, 'compound': -0.1027}
+Classified emotion: neutral
+
+Date: 2020/5/15; Time: 12:56:32
+Top words used: 
+25  :  0.5537431302884862
+quarantine  :  0.49955026502390926
+thing  :  0.05677818505783308
+jeans  :  0.02898623038261954
+i  :  0.023617038823647827
+mail  :  0.016321859852113804
+Sentiment: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+Classified emotion: neutral
+
+Date: 2020/7/1; Time: 6:36:32
+Top words used: 
+scared  :  0.5279377132176024
+worried  :  0.4442364364667294
+wonderful  :  0.24976250275476963
+family  :  0.21733692720142692
+thing  :  0.14733608728373812
+will  :  0.13817846667684933
+still  :  0.11790343822553644
+kid  :  0.10802737128895964
+much  :  0.10543090552494777
+like  :  0.10013104581109995
+Sentiment: {'neg': 0.085, 'neu': 0.758, 'pos': 0.157, 'compound': 0.8903}
+Classified emotion: fear
+
+Date: 2020/7/25; Time: 0:45:32
+Top words used: 
+favorite  :  0.9389892741068122
+thing  :  0.27040640438285174
+my  :  0.17982547255771306
+eyes  :  0.10630445717666877
+definitely  :  0.03926425072338123
+Sentiment: {'neg': 0.0, 'neu': 0.345, 'pos': 0.655, 'compound': 0.6908}
+Classified emotion: love
+
+Date: 2020/8/8; Time: 7:6:32
+Top words used: 
+filters  :  0.42766867569074324
+25  :  0.3659003375378406
+use  :  0.11685740751528884
+dont  :  0.06132110356965509
+Sentiment: {'neg': 0.0, 'neu': 0.7, 'pos': 0.3, 'compound': 0.4588}
+Classified emotion: neutral
+
+Date: 2020/8/10; Time: 12:13:32
+Top words used: 
+curious  :  0.9270468532134964
+im  :  0.20555122010637145
+would  :  0.1085100897220851
+series  :  0.09984763692043461
+re  :  0.09684778222512998
+re  :  0.08497312387269332
+compare  :  0.0837457012085268
+personally  :  0.06345763948181259
+rank  :  0.0620863421384656
+finished  :  0.06081392390193718
+Sentiment: {'neg': 0.054, 'neu': 0.671, 'pos': 0.275, 'compound': 0.9501}
+Classified emotion: curiosity
+
+Date: 2020/8/22; Time: 3:6:32
+Top words used: 
+5  :  0.3065502254168642
+top  :  0.06326145509270975
+Sentiment: {'neg': 0.0, 'neu': 0.735, 'pos': 0.265, 'compound': 0.2023}
+Classified emotion: neutral
+
+Date: 2020/8/23; Time: 12:19:32
+Top words used: 
+times  :  0.3851148230464429
+many  :  0.1531217456910243
+week  :  0.1300477846167197
+hair  :  0.08057130175686678
+Sentiment: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+Classified emotion: neutral
+
+Date: 2020/8/28; Time: 12:10:32
+Top words used: 
+good  :  0.7415326591911527
+fe  :  0.478027004882382
+eling  :  0.26681918690831646
+pretty  :  0.07836874957739494
+Sentiment: {'neg': 0.0, 'neu': 0.116, 'pos': 0.884, 'compound': 0.765}
+Classified emotion: joy
+
+Date: 2020/10/1; Time: 12:6:32
+Top words used: 
+crying  :  0.6715253089744646
+lost  :  0.29230093486515896
+okay  :  0.2908616569017732
+grief  :  0.28484104636834223
+i  :  0.19769760871502137
+stop  :  0.19751790679395095
+say  :  0.15786330884025337
+i  :  0.14855234358829097
+today  :  0.13255930055626886
+since  :  0.11964540242448105
+Sentiment: {'neg': 0.149, 'neu': 0.584, 'pos': 0.267, 'compound': 0.6643}
+Classified emotion: sadness
+
+Date: 2020/10/14; Time: 3:57:32
+Top words used: 
+lol  :  0.8828228269887066
+seasons  :  0.2231957895663441
+entertaining  :  0.17480713572671586
+starting  :  0.12318776100631519
+similar  :  0.07882873136403816
+finished  :  0.07516457314991117
+felt  :  0.07376665508668136
+unbelievable  :  0.06864998209144459
+just  :  0.06281561844784003
+im  :  0.06021506564498838
+Sentiment: {'neg': 0.063, 'neu': 0.642, 'pos': 0.294, 'compound': 0.9823}
+Classified emotion: amusement
+
+Date: 2020/10/19; Time: 12:16:32
+Top words used: 
+beach  :  0.5774713476648016
+ume  :  0.1719897302034735
+d  :  0.14865885934387366
+ibu  :  0.12670711721464567
+point  :  0.048079819566798625
+Sentiment: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+Classified emotion: neutral
+
+Date: 2020/11/14; Time: 5:24:32
+Top words used: 
+lol  :  0.7454687405576276
+better  :  0.2440898934240608
+hoop  :  0.13393807770193503
+change  :  0.10479750913044415
+ive  :  0.0755456704478252
+i  :  0.07439898353312821
+pierced  :  0.05495753193367786
+others  :  0.05363146386105298
+switch  :  0.049048597548543835
+those  :  0.04708758643568341
+Sentiment: {'neg': 0.046, 'neu': 0.652, 'pos': 0.302, 'compound': 0.9169}
+Classified emotion: amusement
+
+Date: 2020/11/22; Time: 4:23:32
+Top words used: 
+miss  :  0.38800446541490413
+life  :  0.34246192036864326
+miss  :  0.2720019417356085
+miss  :  0.2701424327064904
+miss  :  0.24633570002180957
+best  :  0.2200254237438106
+never  :  0.16360277249411606
+lost  :  0.15566907357951068
+they  :  0.14812694378365138
+nt  :  0.14042213010024338
+Sentiment: {'neg': 0.105, 'neu': 0.546, 'pos': 0.349, 'compound': 0.9923}
+Classified emotion: sadness
+
+Date: 2020/11/29; Time: 3:40:32
+Top words used: 
+good  :  0.36284186263381574
+spent  :  0.30568396659954233
+giving  :  0.2142254807434723
+im  :  0.2021487645318842
+proud  :  0.17269388913141806
+overs  :  0.0996200945750827
+first  :  0.0838749706041093
+instead  :  0.06928503259797243
+whole  :  0.0541437733609178
+turkey  :  0.03369331824545257
+Sentiment: {'neg': 0.113, 'neu': 0.683, 'pos': 0.205, 'compound': 0.4019}
+Classified emotion: admiration
+
+Date: 2020/12/3; Time: 3:19:32
+Top words used: 
+embarrassing  :  0.7786970324583856
+lol  :  0.45846934884894996
+cooking  :  0.1965329980681708
+kind  :  0.12800062549164634
+really  :  0.12401869663434915
+wanted  :  0.12149997189259104
+anyone  :  0.09264683586729525
+i  :  0.0606755552829043
+tastes  :  0.06062677367093946
+think  :  0.052327995812932016
+Sentiment: {'neg': 0.035, 'neu': 0.691, 'pos': 0.274, 'compound': 0.9805}
+Classified emotion: amusement
+
+Date: 2020/12/28; Time: 4:17:32
+Top words used: 
+thank  :  0.5577346433006729
+attention  :  0.5254773311791618
+awards  :  0.28823267166881716
+comments  :  0.23502228121645521
+get  :  0.19659863060243668
+much  :  0.16716540786132705
+much  :  0.12432529933006323
+unlocked  :  0.09587842437827557
+i  :  0.08932087980021108
+kind  :  0.08176644088214689
+Sentiment: {'neg': 0.053, 'neu': 0.647, 'pos': 0.3, 'compound': 0.9781}
+Classified emotion: gratitude
+
+Date: 2021/4/16; Time: 12:33:32
+Top words used: 
+green  :  0.23976255413333472
+Sentiment: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+Classified emotion: neutral
+
+Date: 2021/4/19; Time: 12:46:32
+Top words used: 
+stupid  :  0.7871141031956369
+stupid  :  0.5128281599441986
+i  :  0.19269678360718429
+care  :  0.09722115285373438
+recognize  :  0.06987714185919452
+hotel  :  0.05007199711068942
+come  :  0.04710114342802833
+company  :  0.04593784326594737
+amount  :  0.041548535251517214
+ago  :  0.03829541111280545
+Sentiment: {'neg': 0.143, 'neu': 0.744, 'pos': 0.113, 'compound': -0.4903}
+Classified emotion: annoyance
+
+Date: 2021/4/30; Time: 3:12:32
+Top words used: 
+i  :  0.1372315778204321
+i  :  0.10221907415976386
+i  :  0.10031258084455821
+i  :  0.07266814565280907
+girls  :  0.04511870993812263
+pretty  :  0.03762929557032901
+call  :  0.037130212414407955
+first  :  0.02949682907506015
+yy  :  0.014613474498294556
+or  :  0.014566253946902454
+Sentiment: {'neg': 0.187, 'neu': 0.734, 'pos': 0.079, 'compound': -0.7599}
+Classified emotion: neutral
+
+Date: 2021/5/26; Time: 12:56:32
+Top words used: 
+hate  :  0.4086138062995156
+believe  :  0.36341482206543246
+whatever  :  0.2412774490479041
+long  :  0.23971342682814573
+11  :  0.23393183990607294
+really  :  0.19521543243961514
+grateful  :  0.18746812893719927
+i  :  0.16881910970777134
+diving  :  0.165065012273601
+stuff  :  0.1586598926753312
+Sentiment: {'neg': 0.153, 'neu': 0.6, 'pos': 0.247, 'compound': 0.5198}
+Classified emotion: surprise
+
+Date: 2021/5/27; Time: 5:44:32
+Top words used: 
+pounds  :  0.5083222655442526
+ready  :  0.12304185559188971
+Sentiment: {'neg': 0.0, 'neu': 0.495, 'pos': 0.505, 'compound': 0.6249}
+Classified emotion: neutral
+
+Date: 2021/7/5; Time: 12:22:32
+Top words used: 
+best  :  0.93505619131407
+song  :  0.2216946945814091
+blast  :  0.14644681821165442
+ats  :  0.10017056494760265
+re  :  0.06708474910819799
+driving  :  0.05168780892507441
+car  :  0.05120727939847715
+summer  :  0.04198437894518845
+wh  :  0.03702098861871173
+around  :  0.0054666251096675755
+Sentiment: {'neg': 0.0, 'neu': 0.682, 'pos': 0.318, 'compound': 0.6369}
+Classified emotion: admiration
+
+Date: 2021/7/22; Time: 12:28:32
+Top words used: 
+enjoyed  :  0.7830561096651512
+sociology  :  0.16806878254727708
+i  :  0.12228062072317675
+i  :  0.10236290352640298
+decided  :  0.09763327440529439
+figured  :  0.07706675932117123
+found  :  0.07641842912401442
+could  :  0.07256182297762163
+never  :  0.0710144342840966
+like  :  0.06949715506967283
+Sentiment: {'neg': 0.037, 'neu': 0.77, 'pos': 0.193, 'compound': 0.9342}
+Classified emotion: joy
+
+Date: 2021/7/23; Time: 5:40:32
+Top words used: 
+good  :  0.4743355084498753
+never  :  0.24781445489586548
+could  :  0.21935593112598317
+wondering  :  0.19091569021364937
+seen  :  0.18479680274902116
+movie  :  0.16953158552087033
+ive  :  0.15890260104390658
+seriously  :  0.1433643144196967
+finally  :  0.12788230343749443
+saw  :  0.12609696929391756
+Sentiment: {'neg': 0.124, 'neu': 0.731, 'pos': 0.145, 'compound': 0.7186}
+Classified emotion: admiration
+
+Date: 2021/7/27; Time: 3:32:32
+Top words used: 
+go  :  0.42343805697614206
+got  :  0.4023983633281724
+feel  :  0.3686200834091783
+day  :  0.36172041471108163
+vintage  :  0.3021620432771385
+like  :  0.2690173350463635
+anything  :  0.1668776436851743
+i  :  0.11931057167100328
+i  :  0.10145728841373725
+i  :  0.029583706716251778
+Sentiment: {'neg': 0.0, 'neu': 0.839, 'pos': 0.161, 'compound': 0.3612}
+Classified emotion: joy
+
+Date: 2021/9/22; Time: 12:22:32
+Top words used: 
+nt  :  0.5588417166989099
+satisfied  :  0.3402040283955412
+goes  :  0.3186643303305558
+dont  :  0.1842014227503634
+away  :  0.1785305165036692
+if  :  0.1669510005481442
+less  :  0.15756909148623835
+was  :  0.14065311670173447
+satisfied  :  0.1404873407510376
+less  :  0.129821179240162
+Sentiment: {'neg': 0.108, 'neu': 0.793, 'pos': 0.099, 'compound': -0.1804}
+Classified emotion: disappointment
+
+Date: 2021/10/3; Time: 2:45:32
+Top words used: 
+lol  :  0.9839475522907835
+feel  :  0.0735949689374766
+wow  :  0.06202847517485209
+people  :  0.05627370427952331
+like  :  0.04375660755814094
+self  :  0.039032603123715925
+super  :  0.035807864080767256
+conscious  :  0.03558731334718609
+got  :  0.03165267404361116
+knowing  :  0.03051826496736207
+Sentiment: {'neg': 0.058, 'neu': 0.515, 'pos': 0.427, 'compound': 0.9509}
+Classified emotion: amusement
+
+Date: 2021/10/27; Time: 5:29:32
+Top words used: 
+outfit  :  0.4732937138791902
+agram  :  0.22896723564385235
+today  :  0.22520263731638276
+really  :  0.19703808607847265
+Sentiment: {'neg': 0.0, 'neu': 0.694, 'pos': 0.306, 'compound': 0.2716}
+Classified emotion: neutral
+
+Date: 2021/12/9; Time: 6:3:32
+Top words used: 
+happy  :  0.8518057719467995
+so  :  0.28427149173657484
+exactly  :  0.1895721871904179
+im  :  0.13071394104066245
+pierced  :  0.08691488519951983
+i  :  0.07043069975796691
+one  :  0.06649624727330296
+nd  :  0.04562040669983506
+high  :  0.039736518494391096
+piercing  :  0.031085174532434527
+Sentiment: {'neg': 0.098, 'neu': 0.736, 'pos': 0.166, 'compound': 0.4481}
+Classified emotion: joy
+
+Date: 2022/1/21; Time: 3:16:32
+Top words used: 
+get  :  0.8476602299452543
+hoping  :  0.34597540489340045
+pounds  :  0.21016153129709392
+just  :  0.18562484904747806
+started  :  0.11656025458247794
+eating  :  0.10504137125903487
+goal  :  0.090221516570648
+healthier  :  0.05105971812312114
+main  :  0.04916940911590621
+Sentiment: {'neg': 0.147, 'neu': 0.543, 'pos': 0.31, 'compound': 0.4588}
+Classified emotion: caring
+
+Date: 2022/2/10; Time: 3:43:32
+Top words used: 
+delicious  :  0.8964576779117271
+i  :  0.19319773163981557
+calories  :  0.17799709791468557
+dinner  :  0.13606203300257563
+made  :  0.1355193804222156
+fries  :  0.09905555885803607
+fried  :  0.07998671249773845
+feel  :  0.015011376171722218
+simple  :  0.008731329793153041
+600  :  0.004772505123366199
+Sentiment: {'neg': 0.0, 'neu': 0.812, 'pos': 0.188, 'compound': 0.5719}
+Classified emotion: admiration
+
+Date: 2022/3/5; Time: 5:7:32
+Top words used: 
+cases  :  0.18277327082770428
+pill  :  0.12253568545992079
+ow  :  0.09199433760755031
+blank  :  0.05799720011344381
+sheets  :  0.04977282466464318
+wash  :  0.045145200804320045
+ets  :  0.02016435128974731
+Sentiment: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+Classified emotion: neutral
+
+Date: 2022/3/22; Time: 12:38:32
+Top words used: 
+excited  :  0.8308501039691024
+im  :  0.37493228661833733
+its  :  0.17464856611498542
+watch  :  0.13588695094497816
+stadium  :  0.1106395019349356
+lol  :  0.09661991826866878
+time  :  0.07682996858750535
+i  :  0.06258008607808675
+get  :  0.05623527228394614
+first  :  0.05440480208569692
+Sentiment: {'neg': 0.07, 'neu': 0.617, 'pos': 0.312, 'compound': 0.9517}
+Classified emotion: excitement
+
+Date: 2022/3/25; Time: 3:40:32
+Top words used: 
+curious  :  0.8609576044736815
+im  :  0.2622649488664355
+matters  :  0.24756313456682125
+wondering  :  0.24471299036004124
+how  :  0.09446905191235065
+i  :  0.08779833990534841
+long  :  0.07276078612763898
+process  :  0.056971542356777136
+healed  :  0.05135713877409407
+get  :  0.0497951376447353
+Sentiment: {'neg': 0.027, 'neu': 0.866, 'pos': 0.107, 'compound': 0.5821}
+Classified emotion: curiosity
+
+Date: 2022/4/2; Time: 12:49:32
+Top words used: 
+old  :  0.5332716356545136
+Sentiment: {'neg': 0.0, 'neu': 0.488, 'pos': 0.512, 'compound': 0.2732}
+Classified emotion: neutral
+
+Date: 2022/5/18; Time: 2:57:32
+Top words used: 
+calories  :  0.48202081857812823
+back  :  0.31362525732497204
+track  :  0.2902520589867671
+560  :  0.11373586275288765
+2  :  0.10764273760782381
+Sentiment: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+Classified emotion: neutral
+
+Date: 2022/5/18; Time: 12:41:32
+Top words used: 
+lunch  :  0.03960264192932301
+home  :  0.018532812468518827
+Sentiment: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+Classified emotion: neutral
+
+Date: 2022/5/24; Time: 2:3:32
+Top words used: 
+not  :  0.6623216179866165
+time  :  0.2274619304676433
+facebook  :  0.1194024222255662
+reaff  :  0.09390344607313142
+t  :  0.07218706924278112
+and  :  0.055013123969248
+that  :  0.0373270960939143
+mom  :  0.019546625392002456
+Sentiment: {'neg': 0.071, 'neu': 0.863, 'pos': 0.066, 'compound': -0.0258}
+Classified emotion: neutral
+
+Date: 2023/8/2; Time: 12:59:32
+Top words used: 
+highly  :  0.5841595980208517
+unique  :  0.582515895278432
+recommend  :  0.3164780677221183
+couple  :  0.2132341211200074
+turned  :  0.1479061879041675
+thats  :  0.14269827201791022
+engagement  :  0.1261783228295881
+essed  :  0.09420228716553322
+Sentiment: {'neg': 0.117, 'neu': 0.483, 'pos': 0.4, 'compound': 0.624}
+Classified emotion: admiration
+
+Date: 2023/9/8; Time: 12:6:32
+Top words used: 
+marrying  :  0.5828135583976443
+im  :  0.3294076630860805
+night  :  0.2807844918926402
+year  :  0.24811248336800518
+marrying  :  0.20957150399612667
+said  :  0.18550623436942842
+i  :  0.18292034140238006
+thought  :  0.16845676369522525
+walked  :  0.1461300575517106
+im  :  0.1428052807391716
+Sentiment: {'neg': 0.0, 'neu': 0.692, 'pos': 0.308, 'compound': 0.9628}
+Classified emotion: excitement
+
+Date: 2023/11/7; Time: 12:55:32
+Top words used: 
+attacks  :  0.46918606675079855
+attacks  :  0.30427759396541826
+suffering  :  0.2631935232307459
+help  :  0.2220892612642386
+dealing  :  0.2069525118777445
+ive  :  0.15909973791955603
+help  :  0.1583960342679815
+ive  :  0.13403176330323632
+wont  :  0.12039953948692896
+im  :  0.12014908618779556
+Sentiment: {'neg': 0.374, 'neu': 0.58, 'pos': 0.046, 'compound': -0.9535}
+Classified emotion: nervousness
+
