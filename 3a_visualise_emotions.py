@@ -1,105 +1,80 @@
-from dash import Dash, dcc, html
+from dash import Dash, html
 import dash_cytoscape as cyto
-import matplotlib.pyplot as plt
-from matplotlib.colors import to_hex
-import ast
-import json
 
 app = Dash(__name__)
 
-# Load the converted probabilities from the JSON file
-with open("emotion_lifecycle_probabilities.json", 'r') as file:
-    loaded_probabilities = json.load(file)
+filtered_list = [('admiration', 'approval', ['good', 'best']),
+ ('admiration', 'desire', ['good']),
+ ('admiration', 'gratitude', ['appreciated']),
+ ('admiration', 'love', ['best']),
+ ('admiration', 'optimism', ['best']),
+ ('admiration', 'surprise', ['appreciated']),
+ ('anger', 'annoyance', ['stupid', 'fucking', 'shit', 'hate']),
+ ('annoyance', 'disapproval', ['hate', 'cant']),
+ ('approval', 'gratitude', ['welcome']),
+ ('caring', 'desire', ['please', 'help']),
+ ('caring', 'gratitude', ['help']),
+ ('caring', 'nervousness', ['help']),
+ ('caring', 'optimism', ['help']),
+ ('curiosity', 'surprise', ['wondering']),
+ ('desire', 'gratitude', ['help', 'would']),
+ ('desire', 'nervousness', ['really', 'help']),
+ ('disappointment', 'disapproval', ['dont', 'like', 'nt', 'cant']),
+ ('disappointment', 'love', ['like']),
+ ('embarrassment', 'nervousness', ['really']),
+ ('gratitude', 'nervousness', ['thanks', 'help']),
+ ('gratitude', 'optimism', ['help']),
+ ('gratitude', 'remorse', ['would']),
+ ('gratitude', 'surprise', ['appreciated']),
+ ('love', 'nervousness', ['really'])]
 
-# Convert keys (strings) back to tuples
-transition_probabilities = {tuple(ast.literal_eval(key)): value for key, value in loaded_probabilities.items()}
+# Convert filtered_list into Cytoscape elements
+elements = []
+for relationship in filtered_list:
+    elements.append({'data': {'id': relationship[0], 'label': relationship[0], 'type': 'emotion'}})
+    elements.append({'data': {'id': relationship[1], 'label': relationship[1], 'type': 'emotion'}})
+    for word in relationship[2]:
+        elements.append({'data': {'id': word, 'label': word, 'type': 'word'}})
+        elements.append({'data': {'source': relationship[0], 'target': word}})
+        elements.append({'data': {'source': relationship[1], 'target': word}})
 
-# Normalize probabilities
-# total_prob = sum(transition_probabilities.values())
-# normalized_probabilities = {key: value / total_prob for key, value in transition_probabilities.items()}
-
-# Extract distinct probabilities
-distinct_probabilities = set(transition_probabilities.values())
-
-# Create a colormap
-cmap = plt.get_cmap("tab10")
-
-# Map distinct probabilities to colors
-probability_colors = {prob: to_hex(cmap(i)) for i, prob in enumerate(distinct_probabilities)}
-
-# Create nodes and edges for Dash Cytoscape
-nodes = [{"data": {"id": node}} for node in set([node for edge in transition_probabilities.keys() for node in edge])]
-
-# Assign colors to edges based on probability
-edges = [
+# Define node style based on type
+style = [
     {
-        "data": {"source": source, "target": target, "weight": weight},
-        "style": {
-            "line-color": probability_colors[weight],
-            "target-arrow-color": '#black',
-            "target-arrow-shape": 'triangle',
-            "target-arrow-fill": 'filled',
-            "arrow-scale": 2
+        'selector': 'node',
+        'style': {
+            'content': 'data(label)',
+            'text-valign': 'center',
+            'text-halign': 'center',
+            'font-size': '25px'
         }
-    } for (source, target), weight in transition_probabilities.items()
+    },
+    {
+        'selector': 'node[type = "emotion"]',
+        'style': {
+            'background-color': 'red'  # Color for emotions
+        }
+    },
+    {
+        'selector': 'node[type = "word"]',
+        'style': {
+            'background-color': 'lightgreen',  # Color for words
+            'font-size': '20px'
+        }
+    }
 ]
 
-# Specify the nodes you want to customize
-customized_nodes = {'admiration', 'love', 'joy', 'disappointment'}  # Replace with your node IDs
-
-# Create nodes for Dash Cytoscape with customized text alignment
-nodes = [
-    {
-        "data": {"id": node},
-        "style": {
-            "content": 'data(id)',
-            "background-color": '#6FB1FC',
-            "font-size": '30px',
-            "text-halign": 'left' if node in customized_nodes else 'right',  # Change the alignment as needed
-            "text-valign": 'bottom' if node in customized_nodes else 'top'  # Change the alignment as needed
-        }
-    } for node in set([node for edge in transition_probabilities.keys() for node in edge])
-]
-
-
-
-# Create Dash app
 app.layout = html.Div([
+    html.P("Visualising emotions:"),
     cyto.Cytoscape(
-        id='cytoscape-graph',
-        elements=nodes + edges,
-        layout={'name': 'circle'},
-        style={'width': '100%', 'height': '1000px'},
-        stylesheet=[
-            {
-                'selector': 'node',
-                'style': {
-                    'content': 'data(id)',
-                    'background-color': '#6FB1FC',
-                    'font-size': '30px'
-                }
-            },
-            {
-                'selector': 'edge',
-                'style': {
-                    'line-color': 'data(style.line-color)',
-                    'target-arrow-color': '#gray',  # Change this to black
-                    'target-arrow-shape': 'triangle',
-                    'curve-style': 'bezier'  # This will enable arrows for all edges
-                }
-            },
-            {
-                'selector': 'edge[target != source]',  # Exclude self-loops
-                'style': {
-                    'target-arrow-shape': 'triangle',
-                    'target-arrow-fill': 'filled',
-                    'arrow-scale': 2
-                }
-            }
-        ]
+        id='network-graphs-x-cytoscape',
+        elements=elements,
+        layout={'name': 'breadthfirst'},
+        style={'width': '1400px', 'height': '800px'},
+        stylesheet=style
     )
 ])
 
-# Run the app
 if __name__ == "__main__":
-    app.run_server(debug=True, port=8890)
+    app.run_server(debug=True, port=8891)
+    app.save('your_local_path/graph_output.html')
