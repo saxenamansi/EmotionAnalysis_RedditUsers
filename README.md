@@ -17,8 +17,9 @@ This project consists of these steps:
 This is an ongoing collaboration project, and more files are to be added. The following files are my contrbution to this project. 
 
 1. Classifying these posts from the pilot dataset using the Roberta-base model trained on GoEmotions dataset, which has 28 emotions. [Classification Code](https://github.com/saxenamansi/EmotionAnalysis_RedditUsers/blob/main/1_PredictingEmotion.ipynb)
-2. Analysing the code using Topic Modelling and Obtaining Word Attributions for the Classification Model [Analysis Code](https://github.com/saxenamansi/EmotionAnalysis_RedditUsers/blob/main/2_UserRedditAnalysis.ipynb)
+2. Analysing the code using Topic Modelling and Obtaining Word Attributions for the Classification Model [Analysis Code](https://github.com/saxenamansi/EmotionAnalysis_RedditUsers/blob/main/2_UserRedditAnalysis.ipynb) [Topic modeling using POS tagging](https://github.com/saxenamansi/EmotionAnalysis_RedditUsers/blob/main/6_TopicModeling.ipynb)
 3.Analysing the Word Attribution results. [Analysis of Word Attributions](https://github.com/saxenamansi/EmotionAnalysis_RedditUsers/blob/main/3_WordAttrs_analysis.ipynb)
 3a. Visualising the connectionf between emotions using Word Attributions. [Emotion Visualisation](https://github.com/saxenamansi/EmotionAnalysis_RedditUsers/blob/main/3a_visualise_emotions.py)
 4. Building an Emotion LifeCycle for each user, with their comonly used words from each post. [Emotion LifeCycle](https://github.com/saxenamansi/EmotionAnalysis_RedditUsers/blob/main/4_EmotionLifeCycle.ipynb)
 5. Scraping the larger 65k posts dataset. [Reddit Scraping](https://github.com/saxenamansi/EmotionAnalysis_RedditUsers/blob/main/5_RedditScraping.ipynb)
+
